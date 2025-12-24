@@ -21,3 +21,6 @@ if(nums.length < 2){
  }
  return secondLargestNum;
 }
+
+let arr = [10,20,8,20,9,3,5,20,20];
+console.log("Second Largest is: ",secondLargest(arr));
