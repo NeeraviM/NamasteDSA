@@ -15,7 +15,7 @@ if(nums.length < 2){
 		secondLargestNum = firstLargestNum;
 		firstLargestNum = nums[i];
 	}
-	else if(nums[i] > secondLargestNum){
+	else if((nums[i] > secondLargestNum) && (nums[i] != firstLargestNum)){
 		secondLargestNum = nums[i];
 	}
  }
