@@ -1,6 +1,6 @@
 // Function to find the second largest number in an array. 
 // This will work for both positive and negative numbers.
-// It will not work if the array has duplicate largest numbers.
+// It will work even if the array has duplicate largest numbers.
 
 function secondLargest(nums){
 // If the array has less than 2 elements
